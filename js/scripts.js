@@ -74,6 +74,13 @@ function mapInit()
         for (var c = 0; c < shopList[cityId].shops.length; c++) {
             $('#shops').append('<li class="list-group-item" value="' + c + '">' + shopList[cityId].shops[c].address + '</li>');
         }
+
+        myMap.events.add('balloonclose', function (e) {
+            // Масштабируем и выравниваем карту так, чтобы были видны метки для выбранного города
+            myMap.setBounds(placemarkCollections[cityId].getBounds(), {checkZoomRange:true}).then(function(){
+                if(myMap.getZoom() > 15) myMap.setZoom(15); // Если значение zoom превышает 15, то устанавливаем 15.
+            });
+        });
     }
 
     //Отправляем ajax-запрос к файлу с данными
