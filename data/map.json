@@ -1,0 +1,52 @@
+[
+  {
+    "cityName": "Волгоград",
+    "shops": [
+      {
+        "coordinates": [48.763420, 44.508895],
+        "address": "ул. Космонавтов, 30",
+        "info": {
+            "name": "Лента",
+            "img": "https://avatars.mds.yandex.net/get-altay/1633254/2a00000167b961b57c10d96f60ee2fbe4902/M",
+            "link": "https://yandex.ru/maps/-/CCadyHo5"
+          }
+      },
+      {
+        "coordinates": [48.685464, 44.449888],
+        "address": "Университетский просп., 2",
+        "info": {
+            "name": "Лента",
+            "img": "https://avatars.mds.yandex.net/get-altay/1622057/2a00000167c86ef077b4875177aa7c583c20/M",
+            "link": "https://yandex.ru/maps/-/CCadu0lR"
+          }
+      },
+      {
+        "coordinates": [48.641545, 44.433947],
+        "address": "Университетский просп., 105",
+        "info": {
+            "name": "Лента",
+            "img": "https://avatars.mds.yandex.net/get-altay/1077949/2a0000016801872acfc705f7840021b408a3/M",
+            "link": "https://yandex.ru/maps/-/CCaduTnW"
+          }
+      },
+      {
+        "coordinates": [48.765351, 44.787237],
+        "address": "просп. имени Ленина, 313, Волжский",
+        "info": {
+            "name": "Лента",
+            "img": "https://avatars.mds.yandex.net/get-altay/879259/2a000001668bd5f06a862dfc3837e08d759c/M",
+            "link": "https://yandex.ru/maps/-/CCadyA0g"
+          }
+      },
+      {
+        "coordinates": [48.518052, 44.534430],
+        "address": "Пролетарская ул., 8",
+        "info": {
+            "name": "Лента",
+            "img": "https://avatars.mds.yandex.net/get-altay/1633071/2a00000167a5cf8c4271f634aa3adfa20a77/M",
+            "link": "https://yandex.ru/maps/-/CCadyZ8y"
+          }
+      }
+    ]
+  }
+]
