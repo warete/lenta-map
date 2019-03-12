@@ -35,7 +35,7 @@ function mapInit()
                 var ballonContent = [];
 
                 //Заполняем контент точек
-                ballonContent.push("<strong>" + shopInfo.info.name + "</strong>" + "<img src='" + shopInfo.info.img + "'>");
+                ballonContent.push("<a href='" + shopInfo.info.link + "' target='_blank'><strong>" + shopInfo.info.name + "</strong> " + shopInfo.address + "</a>" + "<br><img src='" + shopInfo.info.img + "'>");
 
                 //Создаём саму точку на карте с иконкой по координатам
                 var shopPlacemark = new ymaps.Placemark(
