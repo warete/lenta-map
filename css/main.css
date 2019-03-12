@@ -2,3 +2,12 @@
     width: 100%;
     min-height: 400px;
 }
+
+#shops .list-group-item {
+    cursor: pointer;
+}
+
+body {
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    padding-top: 50px;
+}
